@@ -25,7 +25,7 @@ setHide(!hide)
           endIcon={<BsFillBagFill />}
         ></Button>
       </Box>
-      <Box className="flex items-center justify-evenly py-8 ">
+      <Box className="flex items-center justify-evenly">
         <Box className="max-lg:hidden">
           <Typography variant="h2">LOGO</Typography>
         </Box>

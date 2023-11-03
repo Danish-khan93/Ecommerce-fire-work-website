@@ -1,10 +1,11 @@
-import { TopHead,SecondHead } from "./component"
+import { TopHead,SecondHead,MainNavBar } from "./component"
 
 const App = () => {
   return (
     <div>
       <TopHead/>
       <SecondHead/>
+      <MainNavBar/>
     </div>
   )
 }

@@ -19,7 +19,7 @@ setHide(!hide)
           endIcon={<BsSearch />}
         ></Button>
 
-        <Typography variant="h2"> LOGO</Typography>
+        <Typography variant="h2" className="text-white"> LOGO</Typography>
         <Button
           className="text-white text-[35px] font-bold"
           endIcon={<BsFillBagFill />}

@@ -1,4 +1,4 @@
-import { Button, Menu, MenuItem, Fade } from "@mui/material";
+import { Typography, Menu, MenuItem, Fade } from "@mui/material";
 import { useState } from "react";
 export default function NestedNavOfMainNav() {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
@@ -12,7 +12,8 @@ export default function NestedNavOfMainNav() {
 
   return (
     <div>
-      <Button
+      <Typography
+        className="font-bold hover:text-[#333333]"
         id="fade-button"
         aria-controls={open ? "fade-menu" : undefined}
         aria-haspopup="true"
@@ -20,9 +21,8 @@ export default function NestedNavOfMainNav() {
         onClick={handleClick}
       >
         FIREWORKS
-      </Button>
+      </Typography>
       <Menu
-        
         id="fade-menu"
         MenuListProps={{
           "aria-labelledby": "fade-button",
